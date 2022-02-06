@@ -4,7 +4,7 @@ const SNav = styled.nav`
 	background-color: #000;
 `
 
-function NavBar() {
+export default function NavBar() {
 	return (
 		<header>
 			<SNav>
@@ -13,5 +13,3 @@ function NavBar() {
 		</header>
 	)
 }
-
-export default NavBar
